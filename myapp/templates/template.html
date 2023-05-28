@@ -1,0 +1,71 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Run Scripts</title>
+  </head>
+  <body>
+    <h2>Start Virtual Try On Me</h2>
+
+    <h4>Image upload sucessfull</h4>
+
+    <h4>Start virual try ON</h4>
+
+    <form action="{% url 'run_scripts' %}" method="post">
+      {% csrf_token %}
+      <button type="submit">Start Try ON</button>
+    </form>
+
+    
+  </body>
+</html> -->
+
+<!-- ==================================================================================================== -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Run Scripts</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    /* Center the content horizontally and vertically */
+    html,
+    body {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /* Add green color to the specified heading */
+    .green-heading {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <div class="container text-center">
+    <h2 class="m-5" >Start Virtual Try On Me</h2>
+
+    <h4 class="green-heading">Image upload successful</h4>
+
+    <!-- <h4>Start virtual try ON</h4> -->
+
+    <form action="{% url 'run_scripts' %}" method="post">
+      {% csrf_token %}
+      <button type="submit" class="btn btn-primary">Start Try ON</button>
+    </form>
+
+    <p class="m-5" >Please wait untill process is being completed</p>
+
+
+  </div>
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,49 @@
+
+/venv
+venv/
+/venv/
+
+# /_HR_VITON_W/HR-VITON/venv/
+# DenseP_W/venv
+# Human_Parse_W/image_segmentation/human_part_segmentation/venv
+# X_Cloth _Mask_W/venv
+# X_Parse_Agnostic_W/venv
+
+
+# _HR_VITON_W/
+# /_HR_VITON_W
+# /_HR_VITON_W/
+
+# /DenseP_W
+# DenseP_W/
+# /DenseP_W/
+
+
+/Human_Parse_W
+Human_Parse_W/
+/Human_Parse_W/
+
+
+
+/OpenP_W
+OpenP_W/
+/OpenP_W/
+
+# /X_Cloth _Mask_W
+# X_Cloth _Mask_W/
+# /X_Cloth _Mask_W/
+
+
+# /X_Parse_Agnostic_W
+# X_Parse_Agnostic_W/
+# /X_Parse_Agnostic_W/
+
+# /Human_Parse_W
+# Human_Parse_W/
+# /Human_Parse_W/
+
+
+
+/
+/
+//
